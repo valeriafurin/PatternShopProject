@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:js": "eslint --ext \".ts,.tsx\" ./",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
     "next": "13.5.4",
@@ -17,7 +18,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
+    "eslint": "^8.0.0",
     "eslint-config-next": "13.5.4",
     "styled-components": "^6.1.1",
     "typescript": "^5"
