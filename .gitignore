@@ -1,4 +1,6 @@
 .DS_Store
+.dist/
+output.css
 node_modules/
 .next
 .vscode/
