@@ -1,0 +1,31 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "files": {
+    "ignore": [
+      ".pnpm-store/",
+      ".cache/",
+      ".next/",
+      ".open-next/",
+      "apps/customer-portal/",
+      "apps/my-freeyou/public/legacy/",
+      "dist-pages/",
+      "dist-storybook/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  "linter": {
+    "enabled": false
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "lineWidth": 80,
+    "lineEnding": "lf",
+    "ignore": []
+  }
+}
